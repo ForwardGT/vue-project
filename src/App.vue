@@ -6,6 +6,8 @@ const increment = () => {
   count.value ++
 }
 
+const testGit = 1
+
 </script>
 
 <template>
