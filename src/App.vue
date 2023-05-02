@@ -1,21 +1,9 @@
-<script setup>
-import { ref } from 'vue';
-
-const count = ref(0);
-const increment = () => {
-  count.value ++
-}
-
-const testGit = 1
-
-</script>
+<script setup></script>
 
 <template>
   <div>
-    <span>
-      <button @click="increment"> Count
-          {{ count }}
-      </button>
-    </span>
+    Home
+    <RouterView>
+    </RouterView>
   </div>
 </template>
