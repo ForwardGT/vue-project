@@ -1,9 +1,8 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="p-2 mb-1 bg-dark text-white">
     Home
-    <RouterView>
-    </RouterView>
+    <RouterView class="p-1 mb-2 bg-body-secondary"></RouterView>
   </div>
 </template>

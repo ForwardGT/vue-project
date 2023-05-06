@@ -1,5 +1,6 @@
 import TestComponent1 from "../components/TestComponent1.vue"
 import TestComponent2 from "../components/TestComponent2.vue"
+import Navbar from "../components/Navbar.vue"
 
 export default [
   {
@@ -11,5 +12,10 @@ export default [
     name: "testcom2",
     path: "/testcom2",
     component: TestComponent2,
+  },
+  {
+    name: "navbar",
+    path: "/navbar",
+    component: Navbar,
   },
 ]
