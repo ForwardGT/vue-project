@@ -4,7 +4,7 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
-        ><img 
+        ><img
           class="img-fluid"
           src="logoFullSize.png"
           alt="Bootstrap"
@@ -23,12 +23,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0 mx-auto grid gap-lg-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About us</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -37,16 +34,21 @@
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-            > About us</a>
+            >
+              Production
+            </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Autorefinish</a></li>
+              <li><a class="dropdown-item" href="#">Industrial coatings</a></li>
+              <li><a class="dropdown-item" href="#">Wood coatings</a></li>
+              <li><a class="dropdown-item" href="#">Automotive paints</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
