@@ -15,7 +15,7 @@ export default [
   },
   {
     name: "navbar",
-    path: "/navbar",
+    path: "/",
     component: Navbar,
   },
 ]
