@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img
@@ -64,3 +64,17 @@
     </div>
   </nav>
 </template>
+
+<style scoped>
+.bgbody {
+  background-color: color;
+}
+.btn-outline-success {
+  color: var(--color1);
+  background-color: var(--color3);
+}
+.btn-outline-success:hover {
+  background-color: var(--color4);
+  color: var(--color1);
+}
+</style>
