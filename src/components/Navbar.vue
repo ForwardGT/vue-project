@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img
@@ -51,7 +51,7 @@
             <a class="nav-link" href="#">Feedback</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
+        <div class="d-flex float-end">
           <input
             class="form-control me-2"
             type="search"
@@ -59,22 +59,28 @@
             aria-label="Search"
           />
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
 <style scoped>
-.bgbody {
-  background-color: color;
+.navbar {
+  background-color: var(--color2);
+  box-shadow: 2px 2px 4px black;
+}
+.nav-link:hover {
+  color: var(--color3);
 }
 .btn-outline-success {
   color: var(--color1);
-  background-color: var(--color3);
+  background-color: var(--color4);
+  border-color: var(--color1);
 }
 .btn-outline-success:hover {
-  background-color: var(--color4);
+  background-color: var(--color3);
   color: var(--color1);
+  border-color: var(--color1);
 }
 </style>
