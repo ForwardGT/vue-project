@@ -4,6 +4,11 @@ import Navbar from "../components/Navbar.vue"
 
 export default [
   {
+    name: "navbar",
+    path: "/",
+    component: Navbar,
+  },
+  {
     name: "testcom1",
     path: "/testcom1",
     component: TestComponent1,
@@ -12,10 +17,5 @@ export default [
     name: "testcom2",
     path: "/testcom2",
     component: TestComponent2,
-  },
-  {
-    name: "navbar",
-    path: "/",
-    component: Navbar,
   },
 ]
