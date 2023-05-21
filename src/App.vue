@@ -1,8 +1,11 @@
-<script setup></script>
+<script setup>
+import Navbar from "./components/Navbar.vue"
+import Carousel from "./components/Carousel.vue"
+import AboutAsHomePage from "./components/AboutAsHomePage.vue"
+</script>
 
 <template>
-  <div class="">
-    Home
-    <RouterView></RouterView>
-  </div>
+  <Navbar/>
+  <AboutAsHomePage/>
+  <!-- <Carousel/> -->
 </template>
