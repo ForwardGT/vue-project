@@ -1,13 +1,13 @@
 <script setup></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img
           class="img-fluid"
-          src="logoFullSize.png"
-          alt="Bootstrap"
+          src="/logoFullSize.png"
+          alt="logoEcopol"
           width="163"
           height="auto"
       /></a>
@@ -52,35 +52,39 @@
           </li>
         </ul>
         <div class="d-flex float-end">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <div class="contacts">
+            <a href="https://vk.com/ecopol2014" target="_blank">
+              <iconify class="ico-vk" icon="basil:vk-solid" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCu_TwYjXgof86zbE4CzTSYg/feed" target="_blank">
+              <iconify class="ico-youtube" icon="uil:youtube"/>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .navbar {
   background-color: var(--color2);
-  box-shadow: 2px 2px 4px black;
+  box-shadow: 2px 2px 4px rgb(70, 70, 70);
 }
 .nav-link:hover {
   color: var(--color3);
 }
-.btn-outline-success {
-  color: var(--color1);
-  background-color: var(--color4);
-  border-color: var(--color1);
+.ico-vk {
+  color: black;
+  font-size: 2.5em;
+  &:hover{color: blue;}
 }
-.btn-outline-success:hover {
-  background-color: var(--color3);
-  color: var(--color1);
-  border-color: var(--color1);
+.ico-youtube {
+  color: black;
+  font-size: 2.5em;
+  &:hover{color:red}
+}
+.contacts a {
+  margin-left: 2px;
 }
 </style>
