@@ -5,7 +5,9 @@ import AboutAsHomePage from "./components/AboutAsHomePage.vue"
 </script>
 
 <template>
-  <Navbar/>
-  <AboutAsHomePage/>
+  <Navbar />
+  <AboutAsHomePage />
   <!-- <Carousel/> -->
 </template>
+
+<style scoped></style>
